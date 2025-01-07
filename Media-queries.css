@@ -1,0 +1,341 @@
+@media screen and (max-width: 800px) {
+  /* Hide desktop navigation */
+  #desktop-nav {
+    display: none;
+  }
+
+
+  /* Show mobile navigation */
+#top-nav {
+  display: none;
+  margin: 0;
+}
+
+#profile
+{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.01rem;
+}
+
+.logo1 {
+  font-size: 24px;
+  text-align: left;
+  padding: 2rem;
+  display: inline-block;
+}
+
+/* Style for mobile menu links */
+#top-nav .menu-links {
+  display: none; /* Initially hidden */
+  background-color: white; /* Background color for mobile menu */
+  flex-direction: column; /* Stack links vertically */
+}
+
+/* Show menu when toggled */
+#top-nav .menu-links.show {
+  display: flex; /* Flex for proper alignment */
+}
+
+/* Individual menu links */
+#top-nav .menu-links a {
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center ;
+
+}
+
+/* Hover effect for menu links */
+#top-nav .menu-links a:hover {
+  background-color: #ddd;
+  color: black;
+  width:7rem;
+}
+
+/* Align hamburger icon */
+.iconham{
+  font-size: 24px;
+  padding: 2rem;
+  cursor: pointer;
+  text-align: right;
+  display: inline-block;
+  margin-left: 5rem;
+}
+ 
+/*All button*/
+    .butON
+    {
+    background: white;
+    color: black;
+    border: 0.1rem solid rgb(19, 3, 3);
+    height: 2.5rem;
+    width: 7rem;
+    padding: 0rem;
+    }
+/*All id down arrow*/
+  .icon-arrow
+  {
+    display: none;
+  }
+
+  section
+    {
+       padding-top: 3vh;
+    }
+
+
+  /*profile*/
+  #profile
+    {
+        display: flex;
+        justify-content: center;
+        gap:5rem;
+        height: 80vh;
+    }
+  #profile .section_pic_container {
+      display: flex;
+      height: 250px;
+      width: 250px;
+      margin-left: 4rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+  }
+  #profile .title {
+    font-size: 2rem;
+    text-align: center;
+}
+.section_text_p2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.section_pic_container img{
+  height:400px;
+  width:300px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+  /*about*/
+  
+   #about .detailes-containers
+    {
+      font-size: 13px;
+        margin-left: 1rem;
+        height: 95%;
+        width: 10rem;
+        padding: 0.5rem;
+    }
+
+    #about .detailes-containers:hover
+    {
+       transition: none;
+    }
+    
+    #about .title
+    {
+      font-size: 2rem;
+    }
+    #about ul
+    {
+       list-style-type:square;
+       padding-left: 20px; 
+    }
+    .about-container {
+      gap: 0rem;
+      margin-left: 3rem;
+  }
+    /*experience*/
+    
+      #experience .title
+    {
+      font-size: 2rem;
+    }
+    #experience .article-container
+    {
+      margin-bottom: 0;
+    }
+    #experience .article-section-2 {
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+    #experience .article-section-3 {
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    .article-section-1 {
+      margin-right: 0rem;
+      gap: 2rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+    #experience .article-container
+    {
+      padding-bottom:2rem;
+    }
+    /*projects*/
+    #projects .title
+    {
+      font-size: 2rem;
+    }
+    #projects .project-img {
+      height: 15rem;
+      width: 15rem;
+    }
+    #projects .article-container 
+    {
+      margin-bottom: 10px;
+    }
+    #projects .experience-detailes-container
+    {
+      padding: 1rem;
+    }
+    #projects
+    {
+      display: none;
+    }
+    #projects-mb
+    {
+      display: block;
+      height: 5vh;
+    }
+    /* Optional: style the carousel items */
+.carousel-item {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding:1rem;
+  border-radius: none;
+  }
+ 
+  .card-body {
+    text-align: center;
+  }
+  
+  .project-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .project-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: style the carousel controls */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+  }
+
+
+.card-body {
+  text-align: center;
+}
+
+.project-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.project-btn:hover {
+  background-color: #45a049;
+}
+
+/*  style the carousel controls */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+.carousel-item {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: none;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.project-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.project-btn:hover {
+  background-color: #45a049;
+}
+
+/*  style the carousel controls */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+   /*contact*/
+   #contact .title
+   {
+    font-size: 2.5rem;
+   }
+   #contact .contact-info-container
+   {
+    margin: 0;
+    padding: 0.02rem;
+    flex-direction: column; /* Stack icon and text vertically */
+    text-align: center;
+    gap: 8px;
+   }
+   #contact .contact-info-container p {
+    font-size: 15px;
+    padding-right: 2rem;
+}
+#contact
+{
+  height:20vh;
+}
+#contact .contact-info-upper-container 
+{
+    width: 20rem;
+    height: 7rem;
+    margin: 1rem auto;
+    border: none;
+    padding-bottom: 0.5rem;
+}
+#contact .contact1 {
+  height: 2.5rem;
+}
+.contact-icon {
+  cursor: default;
+  padding-left: rem;
+  padding-right: 2rem;
+}
+
+footer .nav-links-container
+{
+  display: none;
+}
+}
+ 
+  
+  
+  
+
+
+

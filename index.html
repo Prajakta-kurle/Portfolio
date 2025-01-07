@@ -1,22 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Media-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   
 </head>
+
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Prajakta Magar</div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
     </nav>
-    <ul class="nav-links">
-        <li><a href="#about"></a>About</li>
-        <li><a href="#experience"></a>Experience</li>
-        <li><a href="#projects"></a>Projects</li>
-        <li><a href="#contact"></a>Contact</li>
-    </ul>
+    
+        <div id="top-nav">
+        <div class="logo1">Prajakta Magar</div>
+            <div class="menu-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="iconham" onclick="myfunction()">
+                <i class="fa fa-bars"></i>
+            </div>
+            
+        </div>
+    
+    
+    
+
+    <section id="profile">
+        <!-- Profile Picture Section -->
+        <div class="section_pic_container">
+            <img src="Assets/praju.jpeg" alt="Prajakta Magar" />
+        </div>
+
+        <!-- Profile Text Section -->
+        <div class="section_text_container">
+            <p class="section_text_p1">Hello, I am</p>
+            <h1 class="title">Prajakta Magar</h1>
+            <p class="section_text_p2">Front-end Developer</p>
+
+
+            <!-- Buttons Section -->
+            <div class="button-container">
+                <button class="butON" onclick="window.open('Assets/Prajakta-Resume1.pdf')">Download
+                    CV</button>
+                <button class="butON" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+
+            <!-- Social Media Icons Section -->
+            <div id="social-container">
+                <img src="Assets/githubicon1.png" alt="GitHub" class="icon giticon"
+                    onclick="location.href='https://github.com/prajakta7magar'">
+
+                <img src="Assets/linkdinicon.jpg" alt="LinkedIn" class="icon linkdinicon"
+                    onclick="location.href='https://www.linkedin.com/in/prajakta-kurle-9a169b24a/'">
+
+            </div>
+        </div>
+        <img src="Assets/arrownew.png" class="icon-arrow"
+        onclick="location.href='#about'" />
+
+    </div>
+        
+        </section>
+
+    <section id="about">
+        <p class="section-text-p1">let to Know More,</p>
+        <h1 class="title section-text-p2 ">About me</h1>
+
+        <div class="section-container">
+            <div class="about_detailes_container">
+                <div class="about-container">
+                    <div class="detailes-containers">
+                        <img src="Assets/certificate_9463097.png" alt="experience" class="icon exp">
+                        <h3>Work Experience</h3>
+                        <ul>
+                            <li>Internship <br>as a Front-end developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="detailes-containers">
+                        <img src="Assets/edu1.png" alt="education" class="icon edu">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>B.Sc in computer science</li>
+                            <li>M.sc in computer science</li>
+                        </ul>
+                    </div>
+                    <div class="detailes-containers">
+                        <img src="Assets/certifications.png" alt="certification" class="icon">
+                        <h3>Certifications</h3>
+                        <ul>
+                            <li>Certification in “HTML and CSS for beginners” by udemy.</li>
+                            <li>"The Ultimate JavaScript Course" by Code with Harry.</li>
+                            <li>"Master in React“ by Code with Harry.</li>
+                        </ul>
+                    </div>
+                    <div class="detailes-containers">
+                        <img src="Assets/TECHNICAL1.png" alt="education" class="icon">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>Programming Languages: Java, JavaScript </li>
+                            <li> Web Technologies: HTML, CSS , ReactJS , Bootstrap </li>
+                            <li> Other Technologies: Git , GitHub </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <img src="Assets/arrownew.png" class="icon-arrow"
+            onclick="location.href='#experience'" />
+    </section>
+
+    <section id="experience">
+        <p class="section-text-p1">Explore my</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-detailes-container exp-det-con-1">
+            <div class="experience-container">
+                <div class="exp-detailes-containers">
+                    <h2 class="experience-sub-title">Front-end Development</h2>
+                    <div class="article-section-main">
+                        <div class="article-section-1">
+                            <div class="article-container block-1">
+                                <article>
+                                    <img src="Assets/checkmark - Copy.png" alt="Checkmark" class="icon">
+                                    <div>
+                                        <h3>HTML</h3>
+                                        <p>Experienced</p>
+                                        <img src="Assets/4star.png" alt="4 Stars" class="icon icon-star">
+                                    </div>  
+                                </article>
+                            </div>
+                            <div class="article-container block-1">
+                                <article>
+                                    <img src="Assets/checkmark - Copy.png" alt="Checkmark" class="icon">
+                                    <div>
+                                        <h3>CSS</h3>
+                                        <p>Experienced</p>
+                                        <img src="Assets/4star.png" alt="4 Stars" class="icon icon-star">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+
+
+                        <div class="article-section-2">
+                            <div class="article-container block-2">
+                                <article>
+                                    <img src="Assets/checkmark - Copy.png" alt="Checkmark" class="icon">
+                                    <div>
+                                        <h3>JavaScript</h3>
+                                        <p>Intermediate</p>
+                                        <img src="Assets/3star.png" alt="3 Stars" class="icon icon-star">
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="article-container block-2">
+                                <article>
+                                    <img src="Assets/checkmark - Copy.png" alt="Checkmark" class="icon">
+                                    <div>
+                                        <h3>ReactJS</h3>
+                                        <p>Intermediate</p>
+                                        <img src="Assets/3star.png" alt="3 Stars" class="icon icon-star">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+
+                        <div class="article-section-3">
+                            <div class="article-container block-1">
+                                <article>
+                                    <img src="Assets/checkmark - Copy.png" alt="Checkmark" class="icon">
+                                    <div>
+                                        <h3>Bootstrap 4</h3>
+                                        <p>Intermediate</p>
+                                        <img src="Assets/4star.png" alt="4 Stars" class="icon icon-star">
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="article-container block-3">
+                                <article>
+                                    <img src="Assets/checkmark - Copy.png" alt="Checkmark" class="icon">
+                                    <div>
+                                        <h3>Git & GitHub</h3>
+                                        <p>Intermediate</p>
+                                        <img src="Assets/4star.png" alt="4 Stars" class="icon icon-star">
+                                    </div>
+                                </article>
+                            </div>
+                     </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <img src="Assets/arrownew.png" class="icon-arrow ar-3"
+            onclick="location.href='#projects'" />
+    </section>
+    
+    <section id="projects">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1> 
+        <div class="project-container">
+        <div class="experience-detailes-container exp-det-con-2">
+            <div class="pr-detailes-containers color-containers">
+                <div class="article-container">
+                    <img src="Assets/sneakers1.jpg" alt =project class="project-img">
+               </div>
+               <h2 class="experience-sub-title project-title">PK Sneakers store</h2>
+                <div class="button-container">
+                    <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'";>Github</button>
+                    <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'";>Live Demo</button>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-detailes-container">
+            <div class="pr-detailes-containers color-containers">
+                <div class="article-container">
+                    <img src="Assets/spotify.jpg" alt =project class="project-img">
+               </div>
+               <h2 class="experience-sub-title project-title">Project 2</h2>
+                <div class="button-container">
+                    <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'";>Github</button>
+                    <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'";>Live Demo</button>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-detailes-container">
+            <div class="pr-detailes-containers color-containers">
+                <div class="article-container">
+                    <img src="Assets/person-scanning-qr-code.jpg" alt =project class="project-img">
+               </div>
+               <h2 class="experience-sub-title project-title">Project 3</h2>
+                <div class="button-container">
+                    <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'";>Github</button>
+                    <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'";>Live Demo</button>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="Assets/arrownew.png" class="icon-arrow"
+    onclick="location.href='#contact'" />
+  </section>
+
+  <section id="projects-mb">
+    <p class="section-text-p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+
+    <!-- Carousel for Mobile View Only -->
+    <div id="projectsCarousel" class="carousel slide d-block d-sm-none" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Project 1 -->
+            <div class="carousel-item active">
+                <div class="card">
+                    <img src="Assets/sneakers1.jpg" class="card-img-top project-img" alt="PK Sneakers store">
+                    <div class="card-body">
+                        <h5 class="card-title">PK Sneakers store</h5>
+                        <div class="button-container">
+                            <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'">Github</button>
+                            <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="carousel-item">
+                <div class="card">
+                    <img src="Assets/spotify.jpg" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <div class="button-container">
+                            <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'">Github</button>
+                            <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="carousel-item">
+                <div class="card">
+                    <img src="Assets/person-scanning-qr-code.jpg" class="card-img-top project-img" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <div class="button-container">
+                            <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'">Github</button>
+                            <button class="butON project-btn" onclick="location.href='https://github.com/prajakta7magar'">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Default grid layout for larger screens -->
+    <div class="d-none d-sm-block">
+        <!-- Your existing grid layout for larger screens -->
+        <div class="project-container">
+            <!-- Your project items go here (same as your original grid layout) -->
+        </div>
+    </div>
+
+    <img src="Assets/arrownew.png" class="icon-arrow" onclick="location.href='#contact'" />
+</section>
+
+
+    <section id="contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="Assets/mail1.png" alt="mail" class="icon contact-icon contact1 ">
+                <p><a href="mailto:prajakta1598@gmail.com">prajakta151198@gmail.com</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="Assets/linkdinicon.jpg" alt="linkedin" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/prajakta-kurle-9a169b24a/">Linkedin</a></p>
+            </div>
+        </div>
+        <img src="Assets/arrownew.png" class="icon-arrow"
+        onclick="location.href='#about'" />
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>copyright &#169; 2024 Prajakta Kurle.All Rights Reserved. </p>
+    </footer>
+
     <script src="port.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>

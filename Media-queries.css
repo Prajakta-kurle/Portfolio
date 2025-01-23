@@ -97,7 +97,7 @@
   #profile .section_pic_container {
       display: flex;
       height: 250px;
-      width: 250px;
+      width: 250px; 
       margin-left: 4rem;
       margin-bottom: 2rem;
       margin-top: 2rem;
